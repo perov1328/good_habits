@@ -55,7 +55,6 @@ class HabitTestCase(APITestCase):
             2
         )
 
-
     def test_habit_list(self):
         """
         Тестирование вывода всех Привычек

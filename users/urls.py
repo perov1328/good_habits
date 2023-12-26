@@ -1,4 +1,4 @@
-from rest_framework_simplejwt.views import (TokenObtainPairView, TokenRefreshView, TokenVerifyView)
+from rest_framework_simplejwt.views import (TokenObtainPairView, TokenRefreshView)
 from django.urls import path
 from users.apps import UsersConfig
 from users.apiviews import UserCreateAPIView, UserRetrieveAPIView, UserDeleteAPIView, UserUpdateAPIView
