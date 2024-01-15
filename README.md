@@ -53,3 +53,11 @@ Telegram API (для отправки уведомлений)
 # _**Документация API**_
 
 Документация API доступна после запуска сервера по адресу: http://localhost:8000/ или http://localhost:8000/redoc/ 
+
+# **_❗️❗️ РАБОТА В DOCKER ❗️❗️_**
+
+Для запуска работы Docker в фоновом режиме используйте следующие команды:
+
+1. docker-compose build
+2. docker compose exec app python3 manage.py migrate
+3. docker-compose app
