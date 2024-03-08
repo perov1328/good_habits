@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "good-habits"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Perov <perov97@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+psycopg2-binary = "^2.9.9"
+djangorestframework = "^3.14.0"
+python-dotenv = "^1.0.0"
+celery = "^5.3.6"
+django-celery-beat = "^2.5.0"
+drf-yasg = "^1.21.7"
+djangorestframework-simplejwt = "^5.3.1"
+django-cors-headers = "^4.3.1"
+coverage = "^7.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
